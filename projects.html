@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Emir Canitez</title>
+  <meta name="description" content="Project demos by Emir Canitez — calculator, currency exchange office UI, and renters.hu prototype." />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brand-badge" aria-hidden="true">EC</span>
+        <span>Emir Canitez</span>
+      </a>
+
+      <button class="icon-btn mobile-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <nav id="site-nav" class="nav" aria-label="Primary">
+        <a href="index.html" data-nav-close><i class="fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a>
+        <a href="projects.html" data-nav-close><i class="fa-solid fa-folder-open" aria-hidden="true"></i><span>Projects</span></a>
+        <a href="contact.html" data-nav-close><i class="fa-solid fa-id-badge" aria-hidden="true"></i><span>Contact</span></a>
+        <a class="btn btn-primary" href="contact.html" data-nav-close><i class="fa-solid fa-paper-plane" aria-hidden="true"></i><span>Let’s talk</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <p class="section-kicker">Projects</p>
+        <h1 class="section-title">Live demos and what they show</h1>
+        <p class="muted">
+          These are front-end demo projects. They are intentionally simple and easy to review.
+          I’m continuously improving code structure, responsiveness, and clarity.
+        </p>
+
+        <div class="grid cols-3" style="margin-top: 1.2rem;">
+          <a class="card" href="#calculator">
+            <div class="card-media"><img src="assets/img/projects/prj1-1.jpg" alt="Calculator project" loading="lazy" /></div>
+            <div class="card-body">
+              <h3>Calculator Web App</h3>
+              <p>Fast UI interactions & basic logic handling.</p>
+            </div>
+          </a>
+          <a class="card" href="#exchange">
+            <div class="card-media"><img src="assets/img/projects/prj2-1.jpg" alt="Currency Exchange Office project" loading="lazy" /></div>
+            <div class="card-body">
+              <h3>Currency Exchange Office</h3>
+              <p>Multi-screen UI, flows, and layout discipline.</p>
+            </div>
+          </a>
+          <a class="card" href="#renters">
+            <div class="card-media"><img src="assets/img/projects/prj3-1.jpg" alt="Renters.hu project" loading="lazy" /></div>
+            <div class="card-body">
+              <h3>Renters.hu</h3>
+              <p>Landing-page design and presentation.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calculator -->
+    <section id="calculator" class="section">
+      <div class="container split">
+        <div>
+          <p class="section-kicker">Project 01</p>
+          <h2 class="section-title">Calculator Web App</h2>
+          <p class="muted">A lightweight calculator UI with multiple operators and quick interactions.</p>
+
+          <div class="chips">
+            <span class="chip">JavaScript</span><span class="chip">HTML</span><span class="chip">CSS</span>
+          </div>
+
+          <div class="hr"></div>
+          <ul class="muted" style="padding-left: 1.1rem; margin: 0;">
+            <li>Focus: UI clarity, input handling, and predictable results.</li>
+            <li>Good for demonstrating: DOM work, event handling, and clean layout.</li>
+            <li>Next upgrades: improved keyboard support, better responsiveness, and tests for edge cases.</li>
+          </ul>
+
+          <div class="card-actions" style="margin-top: 1.2rem;">
+            <a class="btn btn-primary" href="https://cntzemir.github.io/javascript-calculator/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>Open live demo</a>
+            <a class="btn" href="https://github.com/cntzemir/javascript-calculator" target="_blank" rel="noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
+          </div>
+
+          <p class="note" style="margin-top: 1rem;">
+            Note: this is a demo UI, not a production calculator library.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h3>Screenshots</h3>
+            <p class="muted">Swipe horizontally on mobile.</p>
+            <div class="gallery" style="margin-top: 1rem;">
+              <img src="assets/img/projects/prj1-1.jpg" alt="Calculator screenshot 1" loading="lazy" />
+              <img src="assets/img/projects/prj1-2.jpg" alt="Calculator screenshot 2" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Exchange -->
+    <section id="exchange" class="section">
+      <div class="container split">
+        <div>
+          <p class="section-kicker">Project 02</p>
+          <h2 class="section-title">Currency Exchange Office</h2>
+          <p class="muted">A foreign exchange UI prototype with account switching and transaction-style screens.</p>
+
+          <div class="chips">
+            <span class="chip">JavaScript</span><span class="chip">HTML</span><span class="chip">CSS</span>
+          </div>
+
+          <div class="hr"></div>
+          <ul class="muted" style="padding-left: 1.1rem; margin: 0;">
+            <li>Focus: multi-section layout, visual hierarchy, and user flows.</li>
+            <li>Good for demonstrating: page structure, reusable styling, and UI consistency.</li>
+            <li>Next upgrades: data validation, clearer state handling, and accessibility improvements.</li>
+          </ul>
+
+          <div class="card-actions" style="margin-top: 1.2rem;">
+            <a class="btn btn-primary" href="https://cntzemir.github.io/javascript-exchange/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>Open live demo</a>
+            <a class="btn" href="https://github.com/cntzemir/javascript-exchange" target="_blank" rel="noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
+          </div>
+
+          <p class="note" style="margin-top: 1rem;">
+            Note: this is a demo UI concept — no real financial transactions.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h3>Screenshots</h3>
+            <p class="muted">Swipe horizontally on mobile.</p>
+            <div class="gallery" style="margin-top: 1rem;">
+              <img src="assets/img/projects/prj2-1.jpg" alt="Exchange screenshot 1" loading="lazy" />
+              <img src="assets/img/projects/prj2-2.jpg" alt="Exchange screenshot 2" loading="lazy" />
+              <img src="assets/img/projects/prj2-3.jpg" alt="Exchange screenshot 3" loading="lazy" />
+              <img src="assets/img/projects/prj2-4.jpg" alt="Exchange screenshot 4" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Renters -->
+    <section id="renters" class="section">
+      <div class="container split">
+        <div>
+          <p class="section-kicker">Project 03</p>
+          <h2 class="section-title">Renters.hu</h2>
+          <p class="muted">Landing-page style prototype for an e‑bike rental concept for couriers.</p>
+
+          <div class="chips">
+            <span class="chip">JavaScript</span><span class="chip">HTML</span><span class="chip">CSS</span>
+          </div>
+
+          <div class="hr"></div>
+          <ul class="muted" style="padding-left: 1.1rem; margin: 0;">
+            <li>Focus: visuals, layout, and presentation for a product idea.</li>
+            <li>Good for demonstrating: responsive sections, hero design, and consistent spacing.</li>
+            <li>Next upgrades: clearer copy, improved mobile typography, and performance optimizations.</li>
+          </ul>
+
+          <div class="card-actions" style="margin-top: 1.2rem;">
+            <a class="btn btn-primary" href="https://cntzemir.github.io/e-bike-rental-demo/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>Open live demo</a>
+            <a class="btn" href="https://github.com/cntzemir/e-bike-rental-demo" target="_blank" rel="noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
+          </div>
+
+          <p class="note" style="margin-top: 1rem;">
+            Note: demo concept site — not a real rental backend.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h3>Screenshots</h3>
+            <p class="muted">Swipe horizontally on mobile.</p>
+            <div class="gallery" style="margin-top: 1rem;">
+              <img src="assets/img/projects/prj3-1.jpg" alt="Renters screenshot 1" loading="lazy" />
+              <img src="assets/img/projects/prj3-2.jpg" alt="Renters screenshot 2" loading="lazy" />
+              <img src="assets/img/projects/prj3-3.jpg" alt="Renters screenshot 3" loading="lazy" />
+              <img src="assets/img/projects/prj3-4.jpg" alt="Renters screenshot 4" loading="lazy" />
+              <img src="assets/img/projects/prj3-5.jpg" alt="Renters screenshot 5" loading="lazy" />
+              <img src="assets/img/projects/prj3-6.jpg" alt="Renters screenshot 6" loading="lazy" />
+              <img src="assets/img/projects/prj3-7.jpg" alt="Renters screenshot 7" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="muted">© <span id="year"></span> Emir Canitez. All rights reserved.</p>
+      <div class="social" aria-label="Social links">
+        <a href="https://github.com/cntzemir" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/@emirrrrw" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/emircntz/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/emircntz" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
