@@ -31,25 +31,6 @@ Built with **HTML, CSS, and Vanilla JavaScript** and deployed via **GitHub Pages
 |---|---|---|
 | ![Home](docs/screenshots/home.png) | ![Projects](docs/screenshots/projects.png) | ![Contact](docs/screenshots/contact.png) |
 
-<details>
-  <summary><b>More screenshots</b></summary>
-  <br/>
-  <table>
-    <tr>
-      <td align="center"><b>Mobile Menu</b></td>
-      <td align="center"><b>Project Details</b></td>
-    </tr>
-    <tr>
-      <td><img src="docs/screenshots/mobile-menu.png" width="420" /></td>
-      <td><img src="docs/screenshots/project-card.png" width="420" /></td>
-    </tr>
-  </table>
-</details>
-
-> Create `docs/screenshots/` and add:
-> - `home.png`, `projects.png`, `contact.png`
-> - optional: `mobile-menu.png`, `project-card.png`
-
 ---
 
 ## Featured Projects
