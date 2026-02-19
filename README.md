@@ -82,21 +82,4 @@ These are included on the Projects page (with repo/demo links):
 **Option B — Local server (recommended)**
 ```bash
 python -m http.server 5500
-# open http://localhost:5500
-
-.
-├─ index.html
-├─ projects.html
-├─ contact.html
-├─ assets/
-│  ├─ css/
-│  │  └─ main.css
-│  ├─ js/
-│  │  └─ main.js
-│  └─ img/
-│     ├─ hero-portrait.jpg
-│     ├─ about-photo.jpg
-│     ├─ contact-photo.jpg
-│     └─ gallery-*.jpg
-└─ docs/
-   └─ screenshots/```
+# open http://localhost:5500```
