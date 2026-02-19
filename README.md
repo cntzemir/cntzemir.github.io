@@ -1,54 +1,121 @@
-# Portfolio (GitHub Pages)
+# Emir Cantez — Portfolio (GitHub Pages)
 
-A clean, responsive, mobile-first portfolio website.
+A **mobile-first**, portfolio-ready personal website showcasing my projects, skills, and contact details.  
+Built with **HTML, CSS, and Vanilla JavaScript** and deployed via **GitHub Pages**.
 
-## Structure
+**Highlights:** Responsive layout • Clean UI spacing/typography • Project-focused structure • Fast load (static) • Recruiter-friendly
 
-```
-.
-├── index.html
-├── projects.html
-├── contact.html
-└── assets/
-    ├── css/main.css
-    ├── js/main.js
-    └── img/
-        ├── favicon.svg
-        ├── hero-portrait.jpg
-        ├── about-photo.jpg
-        ├── contact-photo.jpg
-        ├── gallery-*.jpg
-        └── projects/prj*.png
-```
+> **Scope (intentional):** This is a **static** site (no backend).  
+> The contact form is configured for a third-party endpoint (e.g., Formspree) or simple mailto flow depending on configuration.
 
-## Run locally
+---
 
-Just open `index.html` in your browser.
+## Live
+- https://cntzemir.github.io/
 
-For a better dev experience (recommended), use a tiny local server:
+---
 
+## What a Reviewer Can Verify Quickly
+- **Opens instantly** (live link) and works without setup
+- **Responsive UI:** desktop + mobile layouts (no overflow / broken grids)
+- **Clear navigation:** Home → Projects → Contact
+- **Project cards:** short descriptions + links to repo/demo
+- **Code hygiene:** structured assets folder, readable naming, minimal duplication
+
+---
+
+## Screenshots
+
+### Quick Preview
+| Home | Projects | Contact |
+|---|---|---|
+| ![Home](docs/screenshots/home.png) | ![Projects](docs/screenshots/projects.png) | ![Contact](docs/screenshots/contact.png) |
+
+<details>
+  <summary><b>More screenshots</b></summary>
+  <br/>
+  <table>
+    <tr>
+      <td align="center"><b>Mobile Menu</b></td>
+      <td align="center"><b>Project Details</b></td>
+    </tr>
+    <tr>
+      <td><img src="docs/screenshots/mobile-menu.png" width="420" /></td>
+      <td><img src="docs/screenshots/project-card.png" width="420" /></td>
+    </tr>
+  </table>
+</details>
+
+> Create `docs/screenshots/` and add:
+> - `home.png`, `projects.png`, `contact.png`
+> - optional: `mobile-menu.png`, `project-card.png`
+
+---
+
+## Featured Projects
+These are included on the Projects page (with repo/demo links):
+
+- **E-Bike Rental Demo** — static front-end flow (login → dashboard → rent request)  
+  Repo: https://github.com/cntzemir/e-bike-rental-demo  
+  Live: https://cntzemir.github.io/e-bike-rental-demo/
+
+- **JavaScript Exchange** — currency exchange practice app (UI + validation + predictable state)  
+  Repo: https://github.com/cntzemir/javascript-exchange  
+  Live: https://cntzemir.github.io/javascript-exchange/
+
+- **JavaScript Calculator** — clean calculator UI and logic  
+  Repo: https://github.com/cntzemir/javascript-calculator
+
+---
+
+## Features
+
+### UI / UX
+- Responsive layout (grid/cards) with consistent spacing
+- Clean typography and readable hierarchy (headings, sections, cards)
+- Accessible interactions (focus states, keyboard-friendly nav)
+
+### Content Structure
+- Clear introduction and focus areas (web development / security mindset / algorithms)
+- Project-first presentation (what it is + why it matters + links)
+- Simple, direct contact section (email + socials)
+
+### Performance / Delivery
+- Static site (fast load, no build step)
+- Optimized assets folder structure for maintainability
+
+---
+
+## Tech Stack
+- **HTML5**
+- **CSS** (variables, responsive layout)
+- **JavaScript** (small UI interactions)
+
+---
+
+## Run Locally
+**Option A — Open directly**
+1. Download / clone the repository
+2. Open `index.html` in your browser
+
+**Option B — Local server (recommended)**
 ```bash
-# Python
 python -m http.server 5500
-# then open http://localhost:5500
-```
+# open http://localhost:5500
 
-## Deploy on GitHub Pages
-
-1. Push these files to a GitHub repo (for example: `portfolio`).
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select your default branch (often `main`) and **/ (root)**.
-5. Save. After a minute, GitHub will give you a public URL.
-
-## Customize
-
-- Update text in `index.html` (hero/about/skills).
-- Update project descriptions and add **repo links** in `projects.html`.
-- Replace images under `assets/img/`.
-- If you want a PDF CV button, add `assets/Emir-Canitez-CV.pdf` and link to it.
-
-## Notes
-
-- All links are relative, so this works on GitHub Pages without configuration.
-- The contact form uses Formspree (see `contact.html`).
+.
+├─ index.html
+├─ projects.html
+├─ contact.html
+├─ assets/
+│  ├─ css/
+│  │  └─ main.css
+│  ├─ js/
+│  │  └─ main.js
+│  └─ img/
+│     ├─ hero-portrait.jpg
+│     ├─ about-photo.jpg
+│     ├─ contact-photo.jpg
+│     └─ gallery-*.jpg
+└─ docs/
+   └─ screenshots/```
