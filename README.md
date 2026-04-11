@@ -1,26 +1,17 @@
-# Emir Canitez — Portfolio (GitHub Pages)
+# Emir Canitez - Security-Oriented Portfolio
 
-A static portfolio site presenting **secure, reviewable software projects** and the supporting story behind them.
+A compact GitHub Pages portfolio built as a reviewer-friendly technical showcase.
 
-This version is intentionally aligned with the current GitHub profile strategy:
+The site is intentionally not positioned as a broad personal website or generic front-end portfolio. Its purpose is to help an admissions reviewer, internship evaluator, or technical reviewer understand the main direction quickly:
 
-- flagship projects first
-- stronger cybersecurity positioning
-- clearer reviewer flow
-- cleaner separation between flagship work and supporting demos
+- secure software design
+- authentication and access control
+- audit logging and traceability
+- workflow integrity and controlled state changes
+- Linux hardening and defensive configuration
+- reviewer-friendly technical documentation
 
-## Live
-
-- https://cntzemir.github.io/
-
-## What the site now emphasizes
-
-- **Secure Auth & Admin Panel Demo** as the clearest authentication/security project
-- **ValerPay** as the strongest workflow-integrity and auditability project
-- **Linux Hardening Lab** as the main system-level defensive project
-- older frontend demos as **supporting foundation projects**, not the main story
-
-## Structure
+## Site structure
 
 ```text
 .
@@ -33,21 +24,22 @@ This version is intentionally aligned with the current GitHub profile strategy:
     └── img/
 ```
 
-## Why this portfolio exists
+## Page goals
 
-The site is not meant to look like a generic student “web dev portfolio”.
-It is meant to help a reviewer understand a more specific transition:
-
-**practical software development → secure systems thinking → cybersecurity-oriented portfolio**
-
-## Main content changes in this version
-
-- stronger homepage positioning
-- flagship project cards rewritten around security and integrity signals
-- projects page reorganized into **flagship** and **supporting** work
-- contact page language cleaned up to feel more serious and focused
+- `index.html`
+  - states the portfolio direction in the first screen
+  - highlights the three flagship projects first
+  - explains the technical priorities and project selection logic
+- `projects.html`
+  - separates flagship work from supporting demos
+  - explains what each project demonstrates and why it matters
+- `contact.html`
+  - acts as reviewer quick access
+  - provides GitHub, LinkedIn, email, and a short motivation summary
 
 ## Run locally
+
+Open `index.html` directly, or run a small local server:
 
 ```bash
 python -m http.server 5500
@@ -55,6 +47,17 @@ python -m http.server 5500
 
 Then open `http://localhost:5500`.
 
-## Deployment
+## Deploy on GitHub Pages
 
-Deploy from the repository root through GitHub Pages using the default branch.
+1. Push these files to your GitHub Pages repository.
+2. Go to **Settings -> Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select the default branch and **/ (root)**.
+5. Save.
+
+## Customization notes
+
+- Update the quick-access section if you later add a CV PDF.
+- Keep the featured projects aligned with the GitHub profile README and pinned repositories.
+- Avoid expanding the homepage into a broad personal website unless that becomes the intentional goal.
+- Keep supporting projects secondary so the portfolio stays centered on security-oriented, reviewable work.

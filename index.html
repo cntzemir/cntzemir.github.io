@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Emir Canitez | Portfolio</title>
-  <meta name="description" content="Portfolio of Emir Canitez — Computer Science student building web applications with a security-minded approach." />
+  <title>Emir Canitez | Security-Oriented Portfolio</title>
+  <meta name="description" content="Security-oriented technical portfolio of Emir Canitez — authentication, auditability, workflow integrity, and Linux hardening." />
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,234 +30,265 @@
       <nav id="site-nav" class="nav" aria-label="Primary">
         <a href="index.html" data-nav-close><i class="fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a>
         <a href="projects.html" data-nav-close><i class="fa-solid fa-folder-open" aria-hidden="true"></i><span>Projects</span></a>
-        <a href="contact.html" data-nav-close><i class="fa-solid fa-id-badge" aria-hidden="true"></i><span>Contact</span></a>
-        <a class="btn btn-primary" href="contact.html" data-nav-close><i class="fa-solid fa-paper-plane" aria-hidden="true"></i><span>Let’s talk</span></a>
+        <a href="contact.html" data-nav-close><i class="fa-solid fa-id-badge" aria-hidden="true"></i><span>Reviewer Access</span></a>
+        <a class="btn btn-primary" href="contact.html" data-nav-close><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i><span>Open Reviewer Access</span></a>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="section-kicker">Computer Science • Web Development • Security-minded</p>
-          <h1>Building clean, usable web apps — and documenting the work like a professional.</h1>
-          <p>
-            I’m Emir, a Computer Science student in Budapest (ELTE). I focus on practical web development and I like to ship working demos,
-            improve code quality through refactors, and keep projects easy to review for internships and Erasmus.
-          </p>
+    <section class="page-hero">
+      <div class="container page-hero-stack">
+        <div class="hero-shell card">
+          <div class="hero-copy">
+            <p class="section-kicker">Computer Science student • security-oriented technical portfolio</p>
+            <h1>Emir Canitez</h1>
+            <p class="hero-lead">
+              Computer Science student in Budapest building security-oriented, reviewable projects focused on authentication,
+              auditability, workflow integrity, and Linux hardening.
+            </p>
+            <p>
+              I focus on building small but deliberate projects that show how systems can be designed more securely,
+              documented clearly, and reviewed quickly.
+            </p>
 
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="projects.html"><i class="fa-solid fa-folder-open" aria-hidden="true"></i>View projects</a>
-            <a class="btn" href="https://github.com/cntzemir" target="_blank" rel="noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
-            <a class="btn" href="https://www.linkedin.com/in/emircntz" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
-          </div>
-
-          <div class="hr"></div>
-          <p class="note">
-            <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Budapest, Hungary &nbsp; • &nbsp;
-            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> CS BSc (in progress) &nbsp; • &nbsp;
-            <i class="fa-solid fa-language" aria-hidden="true"></i> English B2
-          </p>
-        </div>
-
-        <div class="hero-card">
-          <img src="assets/img/hero-portrait.jpg" alt="Portrait photo of Emir Canitez" loading="eager" />
-          <div class="caption">Currently building: portfolio, projects, and internship-ready documentation.</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="section">
-      <div class="container split">
-        <div>
-          <p class="section-kicker">About</p>
-          <h2 class="section-title">What you can expect from my work</h2>
-          <p class="muted">
-            I’m most effective when I can learn by building. I aim for readable code, clear structure, and a habit of improving projects over time
-            (refactors, better UX, and safer defaults).
-          </p>
-
-          <div class="grid cols-2" style="margin-top: 1.2rem;">
-            <div class="card">
-              <div class="card-body">
-                <h3><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> Practical delivery</h3>
-                <p>Working demos, clean UI, and simple architecture you can review quickly.</p>
-              </div>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#featured-projects"><i class="fa-solid fa-folder-open" aria-hidden="true"></i>View featured projects</a>
+              <a class="btn" href="https://github.com/cntzemir" target="_blank" rel="noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
+              <a class="btn" href="https://www.linkedin.com/in/emircntz" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
             </div>
-            <div class="card">
-              <div class="card-body">
-                <h3><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Security mindset</h3>
-                <p>Input validation, safer defaults, and a clear separation between UI and logic.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h3><i class="fa-solid fa-book" aria-hidden="true"></i> Documentation</h3>
-                <p>README, setup steps, features, and what I learned — so the project is easy to evaluate.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h3><i class="fa-solid fa-chart-line" aria-hidden="true"></i> Continuous improvement</h3>
-                <p>I iterate: better code structure, better UX, and better project storytelling.</p>
-              </div>
+
+            <div class="meta-pills">
+              <span class="meta-pill"><i class="fa-solid fa-location-dot" aria-hidden="true"></i>Budapest, Hungary</span>
+              <span class="meta-pill"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>Computer Science BSc</span>
+              <span class="meta-pill"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i>Security-oriented technical direction</span>
             </div>
           </div>
+
+          <aside class="portrait-card" aria-label="Portrait">
+            <img src="assets/img/hero-portrait.jpg" alt="Portrait of Emir Canitez" loading="eager" />
+            <div class="portrait-caption">Budapest-based Computer Science student building reviewer-friendly security-oriented work.</div>
+          </aside>
         </div>
 
-        <div class="card" aria-label="About photo">
-          <div class="card-media"><img src="assets/img/about-photo.jpg" alt="Emir in an indoor historic building" loading="lazy" /></div>
-          <div class="card-body">
-            <h3>Goal</h3>
-            <p>Join a team as an intern / junior and contribute to real products while leveling up fast.</p>
-            <div class="chips">
-              <span class="chip">Web Development</span>
-              <span class="chip">Algorithms</span>
-              <span class="chip">Cybersecurity</span>
-              <span class="chip">Clean Code</span>
-            </div>
+        <div class="review-strip card">
+          <div class="review-strip-head">
+            <p class="section-kicker">Reviewer snapshot</p>
+            <h2>What the site should communicate quickly</h2>
+          </div>
+          <div class="review-strip-grid">
+            <div class="review-item"><strong>Security-oriented project selection</strong><span>not generic frontend breadth</span></div>
+            <div class="review-item"><strong>Backend-enforced controls</strong><span>auth, roles, integrity, traceability</span></div>
+            <div class="review-item"><strong>Reviewer-friendly documentation</strong><span>clear structure and fast inspection paths</span></div>
+            <div class="review-item"><strong>Defensive systems thinking</strong><span>verification, tradeoffs, recoverability</span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- SKILLS -->
     <section class="section-sm">
       <div class="container">
-        <p class="section-kicker">Skills</p>
-        <h2 class="section-title">Tools I use</h2>
-
-        <div class="skills" style="margin-top: 1.1rem;">
-          <div class="skill">
-            <i class="fa-brands fa-js fa-xl" aria-hidden="true"></i>
-            <div>
-              <strong>JavaScript</strong>
-              <small>DOM, components, UI logic, basic architecture patterns.</small>
-            </div>
-          </div>
-          <div class="skill">
-            <i class="fa-brands fa-html5 fa-xl" aria-hidden="true"></i>
-            <div>
-              <strong>HTML</strong>
-              <small>Semantic layout, accessibility basics, SEO-friendly structure.</small>
-            </div>
-          </div>
-          <div class="skill">
-            <i class="fa-brands fa-css3-alt fa-xl" aria-hidden="true"></i>
-            <div>
-              <strong>CSS</strong>
-              <small>Responsive layouts, Flexbox/Grid, component styling.</small>
-            </div>
-          </div>
-          <div class="skill">
-            <i class="fa-brands fa-react fa-xl" aria-hidden="true"></i>
-            <div>
-              <strong>React</strong>
-              <small>Building interactive UIs and reusable components.</small>
-            </div>
-          </div>
-          <div class="skill">
-            <i class="fa-brands fa-node-js fa-xl" aria-hidden="true"></i>
-            <div>
-              <strong>Node.js</strong>
-              <small>Basic tooling, scripts, and backend fundamentals.</small>
-            </div>
-          </div>
-          <div class="skill">
-            <i class="fa-brands fa-python fa-xl" aria-hidden="true"></i>
-            <div>
-              <strong>Python</strong>
-              <small>Problem solving, scripting, and CS fundamentals practice.</small>
-            </div>
-          </div>
+        <p class="section-kicker">Current Direction</p>
+        <h2 class="section-title">Focused areas</h2>
+        <div class="focus-grid">
+          <div class="focus-pill">secure software design</div>
+          <div class="focus-pill">authentication and access control</div>
+          <div class="focus-pill">audit logging and traceability</div>
+          <div class="focus-pill">workflow integrity and controlled state changes</div>
+          <div class="focus-pill">Linux hardening and defensive configuration</div>
+          <div class="focus-pill">technical documentation for reviewers</div>
         </div>
       </div>
     </section>
 
-    <!-- FEATURED PROJECTS -->
-    <section class="section">
+    <section id="featured-projects" class="section">
       <div class="container">
-        <p class="section-kicker">Featured</p>
-        <h2 class="section-title">Projects (live demos)</h2>
-        <p class="muted">Three demo projects that show my UI work and iterative improvement.</p>
+        <div class="section-head-row">
+          <div>
+            <p class="section-kicker">Featured Projects</p>
+            <h2 class="section-title">Flagship work</h2>
+            <p class="muted section-intro compact-intro">
+              These are the three projects I want reviewers to understand first. They were chosen to show authentication control,
+              workflow integrity, auditability, and defensive system hardening rather than generic front-end breadth.
+            </p>
+          </div>
+        </div>
 
-        <div class="grid cols-3" style="margin-top: 1.2rem;">
-          <article class="card">
-            <div class="card-media"><img src="assets/img/projects/prj1-1.jpg" alt="Calculator project screenshot" loading="lazy" /></div>
+        <div class="flagship-grid">
+          <article class="card flagship-card">
+            <div class="card-body">
+              <p class="section-kicker">Project 01</p>
+              <h3>Secure Auth &amp; Admin Panel Demo</h3>
+              <p>Security-focused authentication demo showing session-based auth, backend RBAC, CSRF protection, rate limiting, temporary lockout, and audit visibility.</p>
+              <div class="mini-section">
+                <h4>What it demonstrates</h4>
+                <ul class="bullet-list">
+                  <li>secure authentication flow design</li>
+                  <li>backend-enforced authorization</li>
+                  <li>misuse visibility and audit review</li>
+                </ul>
+              </div>
+              <div class="card-actions">
+                <a class="btn btn-primary" href="projects.html#secure-auth-demo"><i class="fa-solid fa-circle-info" aria-hidden="true"></i>Project details</a>
+                <a class="btn" href="https://github.com/cntzemir/secure-auth-admin-demo" target="_blank" rel="noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i>Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card flagship-card">
+            <div class="card-body">
+              <p class="section-kicker">Project 02</p>
+              <h3>ValerPay</h3>
+              <p>Workflow-integrity payment demo built around ledger-based balances, role separation, controlled request states, and reviewer-friendly backend logic.</p>
+              <div class="mini-section">
+                <h4>What it demonstrates</h4>
+                <ul class="bullet-list">
+                  <li>integrity-first workflow design</li>
+                  <li>controlled state transitions</li>
+                  <li>auditability across multi-actor processes</li>
+                </ul>
+              </div>
+              <div class="card-actions">
+                <a class="btn btn-primary" href="projects.html#valerpay"><i class="fa-solid fa-circle-info" aria-hidden="true"></i>Project details</a>
+                <a class="btn" href="https://github.com/cntzemir/ValerPay" target="_blank" rel="noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i>Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card flagship-card">
+            <div class="card-body">
+              <p class="section-kicker">Project 03</p>
+              <h3>Linux Hardening Lab</h3>
+              <p>Defensive Ubuntu Server hardening lab documenting baseline review, SSH/UFW/fail2ban/AppArmor decisions, verification steps, and recovery notes.</p>
+              <div class="mini-section">
+                <h4>What it demonstrates</h4>
+                <ul class="bullet-list">
+                  <li>defensive system configuration</li>
+                  <li>before/after verification mindset</li>
+                  <li>tradeoff awareness and recoverability</li>
+                </ul>
+              </div>
+              <div class="card-actions">
+                <a class="btn btn-primary" href="projects.html#linux-hardening-lab"><i class="fa-solid fa-circle-info" aria-hidden="true"></i>Project details</a>
+                <a class="btn" href="https://github.com/cntzemir/linux-hardening-lab" target="_blank" rel="noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i>Repo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sm">
+      <div class="container two-card-grid">
+        <article class="card content-card">
+          <div class="card-body">
+            <p class="section-kicker">What I Emphasize</p>
+            <h2 class="content-card-title">Technical priorities</h2>
+            <ul class="bullet-list spaced-list">
+              <li>security-aware design, not only implementation</li>
+              <li>reviewable systems and clear technical documentation</li>
+              <li>traceability for important actions and decisions</li>
+              <li>practical controls with verification and tradeoff awareness</li>
+            </ul>
+            <p class="muted compact-closing">The strongest signal I want the portfolio to give is deliberate technical judgment, not just feature output.</p>
+          </div>
+        </article>
+        <article class="card content-card">
+          <div class="card-body">
+            <p class="section-kicker">Why These Projects</p>
+            <h2 class="content-card-title">Deliberate project selection</h2>
+            <p>
+              I deliberately chose projects that highlight security-relevant thinking rather than generic app development:
+              authentication control, audit visibility, workflow integrity, and defensive system hardening.
+            </p>
+            <p class="muted">
+              The goal of this portfolio is not breadth. It is to show deliberate technical direction and reviewable, security-minded work.
+            </p>
+          </div>
+        </article>
+      </div>
+
+
+    <section class="section-sm">
+      <div class="container">
+        <p class="section-kicker">Supporting Projects</p>
+        <h2 class="section-title">Smaller work that shows progression</h2>
+        <p class="muted section-intro compact-intro">
+          I also keep a few smaller projects to show progression in structure, UI flow, and JavaScript fundamentals,
+          but the strongest direction of my portfolio is now secure software, defensive thinking, and system integrity.
+        </p>
+
+        <div class="support-grid support-grid-compact">
+          <article class="card support-card-mini">
             <div class="card-body">
               <h3>Calculator Web App</h3>
-              <p>Multi-operator calculator with a clean UI and quick interactions.</p>
-              <div class="chips">
-                <span class="chip">JavaScript</span><span class="chip">HTML</span><span class="chip">CSS</span>
-              </div>
-              <div class="card-actions">
-                <a class="btn btn-primary" href="https://cntzemir.github.io/javascript-calculator/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>Live</a>
-                <a class="btn" href="projects.html#calculator"><i class="fa-solid fa-circle-info" aria-hidden="true"></i>Details</a>
-              </div>
+              <p>Shows basic UI logic, event handling, and predictable interaction flow.</p>
+              <a class="text-link" href="projects.html#calculator">See supporting project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
             </div>
           </article>
-
-          <article class="card">
-            <div class="card-media"><img src="assets/img/projects/prj2-1.jpg" alt="Currency Exchange Office project screenshot" loading="lazy" /></div>
+          <article class="card support-card-mini">
             <div class="card-body">
               <h3>Currency Exchange Office</h3>
-              <p>Foreign exchange UI prototype with account switching flows.</p>
-              <div class="chips">
-                <span class="chip">JavaScript</span><span class="chip">HTML</span><span class="chip">CSS</span>
-              </div>
-              <div class="card-actions">
-                <a class="btn btn-primary" href="https://cntzemir.github.io/javascript-exchange/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>Live</a>
-                <a class="btn" href="projects.html#exchange"><i class="fa-solid fa-circle-info" aria-hidden="true"></i>Details</a>
-              </div>
+              <p>Shows UI structure, multi-screen flow thinking, and validation-oriented frontend work.</p>
+              <a class="text-link" href="projects.html#exchange">See supporting project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
             </div>
           </article>
-
-          <article class="card">
-            <div class="card-media"><img src="assets/img/projects/prj3-1.jpg" alt="Renters.hu project screenshot" loading="lazy" /></div>
+          <article class="card support-card-mini">
             <div class="card-body">
               <h3>Renters.hu</h3>
-              <p>Landing-page style prototype for an e‑bike rental concept.</p>
-              <div class="chips">
-                <span class="chip">JavaScript</span><span class="chip">HTML</span><span class="chip">CSS</span>
-              </div>
-              <div class="card-actions">
-                <a class="btn btn-primary" href="https://cntzemir.github.io/e-bike-rental-demo/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>Live</a>
-                <a class="btn" href="projects.html#renters"><i class="fa-solid fa-circle-info" aria-hidden="true"></i>Details</a>
-              </div>
+              <p>Shows landing-page structure, responsive layout work, and presentation discipline.</p>
+              <a class="text-link" href="projects.html#renters">See supporting project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
             </div>
           </article>
-        </div>
-
-        <div class="hr"></div>
-        <div class="card">
-          <div class="card-body">
-            <h3>Erasmus / Internship note</h3>
-            <p class="muted">
-              This site is designed to be easy to review: clear sections, live demos, and contact links.
-              If you want to evaluate my code, please check my GitHub profile.
-            </p>
-            <div class="card-actions">
-              <a class="btn" href="https://github.com/cntzemir" target="_blank" rel="noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i>Open GitHub</a>
-              <a class="btn" href="contact.html"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i>Contact me</a>
-            </div>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- SMALL GALLERY -->
     <section class="section-sm">
       <div class="container">
-        <p class="section-kicker">Snapshots</p>
-        <h2 class="section-title">A bit of life in Budapest</h2>
-        <div class="gallery" style="margin-top: 1.1rem;">
-          <img src="assets/img/gallery-1.jpg" alt="Train station at sunset" loading="lazy" />
-          <img src="assets/img/gallery-2.jpg" alt="Ferris wheel in city" loading="lazy" />
-          <img src="assets/img/gallery-3.jpg" alt="Pedestrian traffic light" loading="lazy" />
+        <p class="section-kicker">Visual Context</p>
+        <h2 class="section-title">Personal layer, kept secondary to the technical work</h2>
+        <p class="muted section-intro compact-intro">
+          The portfolio stays reviewer-first, but I still keep a small visual layer so the site feels intentional and personal
+          without taking attention away from the repositories and documentation.
+        </p>
+        <div class="visual-strip">
+          <img src="assets/img/gallery-1.jpg" alt="Railway scene at sunset" loading="lazy" />
+          <img src="assets/img/gallery-2.jpg" alt="Ferris wheel and winter sky" loading="lazy" />
+          <img src="assets/img/gallery-3.jpg" alt="Pedestrian traffic light under cloudy sky" loading="lazy" />
         </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container reviewer-access-grid">
+        <article class="card access-card">
+          <div class="card-body">
+            <p class="section-kicker">Reviewer Quick Access</p>
+            <h2 class="content-card-title">Fast paths for admissions and technical review</h2>
+            <div class="access-links-grid">
+              <a class="access-link" href="https://github.com/cntzemir" target="_blank" rel="noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i><span>GitHub profile</span></a>
+              <a class="access-link" href="projects.html"><i class="fa-solid fa-folder-open" aria-hidden="true"></i><span>Project details</span></a>
+              <a class="access-link" href="https://www.linkedin.com/in/emircntz" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+              <a class="access-link" href="mailto:canitezemirr@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>Application email</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card summary-card">
+          <div class="card-body">
+            <p class="section-kicker">Motivation Summary</p>
+            <h2 class="content-card-title">Why this site is structured this way</h2>
+            <p>
+              I am applying with a portfolio centered on secure software design, defensive engineering, workflow integrity,
+              and reviewer-friendly technical documentation.
+            </p>
+            <p class="muted">
+              This site is intentionally compact so reviewers can understand the direction, inspect the strongest projects,
+              and reach the relevant repositories quickly.
+            </p>
+          </div>
+        </article>
       </div>
     </section>
   </main>
@@ -267,9 +298,8 @@
       <p class="muted">© <span id="year"></span> Emir Canitez. All rights reserved.</p>
       <div class="social" aria-label="Social links">
         <a href="https://github.com/cntzemir" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
-        <a href="https://www.youtube.com/@emirrrrw" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
-        <a href="https://www.instagram.com/emircntz/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/in/emircntz" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+        <a href="mailto:canitezemirr@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
       </div>
     </div>
   </footer>
