@@ -1,63 +1,40 @@
-# Emir Canitez - Security-Oriented Portfolio
+# cntzemir.github.io
 
-A compact GitHub Pages portfolio built as a reviewer-friendly technical showcase.
+Personal portfolio site for **Emir Canıtez** — Computer Science student at ELTE, Budapest, learning defensive security and detection engineering.
 
-The site is intentionally not positioned as a broad personal website or generic front-end portfolio. Its purpose is to help an admissions reviewer, internship evaluator, or technical reviewer understand the main direction quickly:
+**Live site:** https://cntzemir.github.io
 
-- secure software design
-- authentication and access control
-- audit logging and traceability
-- workflow integrity and controlled state changes
-- Linux hardening and defensive configuration
-- reviewer-friendly technical documentation
+---
 
-## Site structure
+## About
 
-```text
-.
-├── index.html
-├── projects.html
-├── contact.html
-└── assets/
-    ├── css/main.css
-    ├── js/main.js
-    └── img/
-```
+This is a single-page portfolio built with plain HTML and CSS. It presents my focus and what I'm currently building as I work toward an entry-level SOC / security support role.
 
-## Page goals
+I don't have professional security experience yet — this site tracks what I'm learning and shipping, honestly.
 
-- `index.html`
-  - states the portfolio direction in the first screen
-  - highlights the three flagship projects first
-  - explains the technical priorities and project selection logic
-- `projects.html`
-  - separates flagship work from supporting demos
-  - explains what each project demonstrates and why it matters
-- `contact.html`
-  - acts as reviewer quick access
-  - provides GitHub, LinkedIn, email, and a short motivation summary
+## Focus areas
 
-## Run locally
+- Windows Security event logs (4624 / 4625, Logon Types)
+- Sysmon
+- Sigma rules
+- KQL / SPL
+- MITRE ATT&CK
+- Alert triage
+- SIEM — Elastic, Microsoft Sentinel
+- Detection engineering
 
-Open `index.html` directly, or run a small local server:
+## Currently building
 
-```bash
-python -m http.server 5500
-```
+**[cntzemir/detection-lab](https://github.com/cntzemir/detection-lab)** — a self-built Windows detection lab. Each detection is documented as one reviewable package:
 
-Then open `http://localhost:5500`.
+`telemetry contract → rule → test → benign examples → MITRE mapping → KQL translation → triage notes`
 
-## Deploy on GitHub Pages
+## Tech
 
-1. Push these files to your GitHub Pages repository.
-2. Go to **Settings -> Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select the default branch and **/ (root)**.
-5. Save.
+Static single-page site (HTML + CSS), hosted on GitHub Pages.
 
-## Customization notes
+## Contact
 
-- Update the quick-access section if you later add a CV PDF.
-- Keep the featured projects aligned with the GitHub profile README and pinned repositories.
-- Avoid expanding the homepage into a broad personal website unless that becomes the intentional goal.
-- Keep supporting projects secondary so the portfolio stays centered on security-oriented, reviewable work.
+- Email: canitezemirr@gmail.com
+- GitHub: [github.com/cntzemir](https://github.com/cntzemir)
+- LinkedIn: [linkedin.com/in/emircntz](https://linkedin.com/in/emircntz/)
